@@ -1,0 +1,13 @@
+# ~/.config/starship.toml
+
+#Insert blank line between shell prompts
+add_newline = true
+
+#Change the default prompt format
+format = """\
+[╭╴](bold white)  $directory $python$c$dotnet$java$kotlin$nodejs$ruby$rust$git_branch$git_commit$git_status
+[╰─](bold white)$character"""
+
+#disable the package module
+[package]
+disabled = true
